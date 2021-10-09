@@ -5,10 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"/>
-    <link rel="stylesheet" href="static/css/styles.css">
+    <link rel="stylesheet" 
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" 
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="static/css/style.css">
 </head>
-<body>
+<body class="bg-dark">
   <div class="wrapper">
 
     <!-- Navigation -->
@@ -28,7 +32,7 @@
 
       <!-- Title -->
       <div class="col-md-4">
-        <h3>UFO Sightings: Fact or Fancy? <small>Ufologists Weigh In</small></h3>
+        <h3>UFO Sightings: Fact or Fancy? <br><small>Ufologists Weigh In</small></h3>
       </div>
 
       <!-- Paragraph --> 
@@ -39,29 +43,48 @@
         </div>
     </div>      
   </div>
-</div>
+  </div>
 
   <!-- Filter/Table -->
   <div class="container-fluid">
     <div class="row">
       <!-- Filter -->
       <div class="col-md-3">
-        <form class="bg-dark">
-          <p>Filter Search</p>
-          <ul class="list-group bg-dark">
-            
+        <form>
+        <p>Filter Search</p>
+        </form>     
+        <ul class="list-group">
+          
+        </ul>    
             <!-- Input -->
-            <li class="list-group-item bg-dark">
+        <li class="list-group-item bg-dark">
               <label for="date">Enter Date</label>
               <input type="text" placeholder="1/10/2010" id="datetime" />
-            </li>
+        </li>
+            <!-- City -->
+        <li class="list-group-item bg-dark">
+              <label for="city">Enter a City</label>
+              <input type="text" placeholder="roswell" id="city" />
+        </li>
+            <!-- State -->
+        <li class="list-group-item bg-dark">
+              <label for="state">Enter a State</label>
+              <input type="text" placeholder="ca" id="state" />
+        </li>
+            <!-- Country -->
+        <li class="list-group-item bg-dark">
+              <label for="country">Enter a Country</label>
+              <input type="text" placeholder="us" id="country" />
+        </li>
+            <!-- Shape -->
+        <li class="list-group-item bg-dark">
+              <label for="shape">Enter a Shape</label>
+              <input type="text" placeholder="circle" id="shape" />
+        </li>
 
             <!-- Button -->
-            <li class="list-group-item bg-dark">
-              <button id="filter-btn" type="button" class="btn btn-dark">Filter Table</button>    
-            </li>
-          </ul>
-      </form>       
+            <!-- <li class="bg-dark"> -->
+            <button id="filter-btn" type="button" class="btn btn-dark">Filter Table</button>
     </div>
     <!-- Table -->
     <div class="col-md-9">
@@ -87,5 +110,5 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.11.0/d3.js"></script>
   <script src="static/js/data.js"></script>
   <script src="static/js/app.js"></script>
-<body class="bg-dark">
+<body>
 </html>
