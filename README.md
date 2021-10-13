@@ -5,7 +5,8 @@
 
 ## Project Overview
 Using JavaScript and HTML we will develop a dynamic webpage that can interact with users.  The idea is to allow users to filter searches for UFO sightings using specific filters.  JavaScript, HTML, and bootstrap will power the query and generate the results.  
-![Query (No results)](https://user-images.githubusercontent.com/87907584/137061808-aa63318d-bde2-4296-950f-98528f1a580b.PNG)
+
+![Default](https://user-images.githubusercontent.com/87907584/137061830-1ab6d9fe-5ac0-43aa-a87f-48a376198121.PNG)
 
 ## Results
 Welcome, welcome to the UFO sightings webpage!!  We have constructed a database of UFO sightings for the UFO enthusiast!  Want to know how many times a UFO was sighted in mo?  Enter the abbreviation for Missouri (mo) and find out!
@@ -24,6 +25,7 @@ The fields for input provide an example of how the information should be inputte
 
 ![Drawback](https://user-images.githubusercontent.com/87907584/137061833-ea1acbbe-5e17-4ff3-b9c3-1c01f4f04f68.PNG)
 
+![Query (No results)](https://user-images.githubusercontent.com/87907584/137061808-aa63318d-bde2-4296-950f-98528f1a580b.PNG)
 
 
 
