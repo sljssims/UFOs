@@ -8,9 +8,11 @@ Using JavaScript and HTML we will develop a dynamic webpage that can interact wi
 ![Query (No results)](https://user-images.githubusercontent.com/87907584/137061808-aa63318d-bde2-4296-950f-98528f1a580b.PNG)
 
 ## Results
-Welcome, welcome to the UFO sightings webpage!!  We have constructed a database of UFO sightings for the UFO enthusiast!  Want to know how many times a UFO was sighted in ks?  Enter the abbreviation for Kansas (ks) and find out!
+Welcome, welcome to the UFO sightings webpage!!  We have constructed a database of UFO sightings for the UFO enthusiast!  Want to know how many times a UFO was sighted in mo?  Enter the abbreviation for Missouri (mo) and find out!
 
 ![Query (MO)](https://user-images.githubusercontent.com/87907584/137061820-12b84ccb-34f2-434b-9eea-a3431f50a23e.PNG)
+
+
 
 
 
